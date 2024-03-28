@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Bán Khóa Học Tiếng Anh</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <!-- import css -->
+    <link rel="stylesheet" href="./accsets/cs/product.css">
+    
+     <!-- Import Font Family CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <div class="top-bar">
+    <div class="logo">
+      <a href="./home.html"><img src="./lib/logo.png" alt=""></a>
+    </div>
+     <!-- Cart icon -->
+  <div class="cart-btn">
+    <i id="cart" class="fas fa-shopping-cart"></i>
+    <span class="cart-quantity">0</span>
+    
+  </div>
+  </div>
+   
+ <!--  Cart modal: Noi dung them san pham./Start  -->
+ <div class="cart-modal-overlay">
+    <div class="cart-modal">
+      <i id="close-btn" class="fas fa-times"></i>
+      <h1 class="cart-is-empty">Cart is empty</h1>
+
+
+      <div class="product-rows">
+        <!-- Them sp vao popup o day -->
+      </div>
+
+
+      <div class="total">
+        <h1 class="cart-total">TOTAL</h1>
+        <span class="total-price">$0</span>
+        <button class="purchase-btn">
+          <a href="./payment.html" target="_blank">
+            PURCHASE
+          </a>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+  <!--  products  -->
+  <div class="items-container">
+    <div class="card-1 card">
+      <img
+        class="product-image"
+        src="https://down-vn.img.susercontent.com/file/81c5ff212ff3415f02370042843c3845_tn"
+        alt=""
+      />
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-price">$1395</span>
+    </div>
+    <div class="card-2 card">
+      <img
+        class="product-image"
+        src="https://down-vn.img.susercontent.com/file/a10172bfe279f9f9574757aad124f312_tn"
+        alt=""
+      />
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-price">$1175</span>
+    </div>
+    <div class="card-3 card">
+      <img
+        class="product-image"
+        src="https://cf.shopee.vn/file/1088dfb3463cae5228889101cdb725a9"
+        alt=""
+      />
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-price">$1150</span>
+    </div>
+    <div class="card-4 card">
+      <img
+        class="product-image"
+        src="https://cf.shopee.vn/file/a2e163b0dd1173442f13c0c0301c1020_tn"
+        alt=""
+      />
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-price">$1575</span>
+    </div>
+    <div class="card-5 card">
+      <img
+        class="product-image"
+        src="https://down-vn.img.susercontent.com/file/sg-11134201-22110-zesj15239ckv7a"
+        alt=""
+      />
+      <button class="add-to-cart">Add to cart</button>
+      <span class="product-price">$1230</span>
+    </div>
+  </div>
+<!-- import js -->
+    <script src="./accsets/js/main.js"></script>
+</body>
+</html>
