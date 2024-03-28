@@ -20,8 +20,7 @@
     background: #9ac3ff;
     display: flex;
     align-items: center ;
-    
-    height: 91px;
+   height: 91px;
     
 
   }
@@ -70,6 +69,7 @@
   }
   
   .product-image {
+    height: 250px;
     margin-bottom: 1em
   }
   
@@ -202,6 +202,16 @@
     font-weight: bolder;
     font-size: 1rem;
   }
+  .footer {
+    height: 250px;
+    background: #9ac3ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+ 
   
   .remove-btn:active {
     transform: translateY(5px);

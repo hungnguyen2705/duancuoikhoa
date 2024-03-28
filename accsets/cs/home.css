@@ -146,14 +146,19 @@
   width: 160px;
   position: relative;
 }
-.title2 {
+.button  {
   color: #ffffff;
+  text-decoration: none;
   text-align: left;
   font-family: "Roboto-Medium", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
   position: relative;
+  
+}
+.a {
+  text-decoration: none;
 }
 .list {
   display: flex;

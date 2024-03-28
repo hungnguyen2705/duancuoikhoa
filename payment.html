@@ -1,21 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trang thanh toan</title>
-  <link rel="stylesheet" href="./accsets/cs/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     
+
+    <!-- Import Icon -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+
+
+    <!-- Import Style Css -->
+
+    <link rel="stylesheet" href="./accsets/cs/pay.css">
+
+    <link rel="stylesheet" href="./assets/css/pay.css">
+  
 </head>
-
 <body>
-  <h1>Trang thanh toan</h1>
+    <div class="wrapper">
+      <div class="scrop">
+        <i class="fa fa-angle-up"></i>
+      </div>
 
-  <h4>Name Product: </h4>
+        <!-- Header -->
 
-  <div class="name-product-js"></div>
+        <div class="header">
+             
 
-  <script src="./accsets/js/payment.js"></script>
+            <!-- header-top -->
+
+            <div class="header-top">
+              
+            </div>
+
+            
+            
+            
+ 
+        </div>
+
+
+        <!-- shop -->
+        <div class="pay">
+            <h2>Đơn Hàng Của Bạn</h2>
+            <div class="pay-top">
+              <div class="pay-lef">
+                <div class="pay-lef-item">
+                  <h3>Thông Tin Khách hàng</h3>
+                  <input class="w3-radio" type="radio" name="GioiTinh" value="Nam" checked>
+                  <label class="tex">Nam</label>
+
+                  <input class="w3-radio" type="radio" name="GioiTinh" value="Nu">
+                  <label class="tex">Nữ</label>
+                  <br>
+                  <input class="in" type="text" placeholder="Họ và Tên">
+                  <input class="in" type="text" placeholder="Số Điên Thoại">
+                </div>
+                <div class="pay-lef-item">
+                  <h3>Địa Chỉ Nhận Hàng</h3>
+                  <select id="city">
+                    <option value="macdinh">Quận,Huyện</option>
+                    <option value="saab">Hai Bà Trưng</option>
+                    <option value="vw">Than Xuân</option>
+                    <option value="audi" >Hoàng Mai</option>
+                  </select>
+                  <select id="phuong">
+                    <option value="macdinh">Phường,Xã</option>
+                    <option value="saab">Hoàng Liệt</option>
+                    <option value="vw">Phương Mai</option>
+                    <option value="audi" >Khương Đình</option>
+                  </select>
+                  <input class="in" type="text" placeholder="Số nhà, Đường, Phố">
+                </div>
+                <div class="pay-lef-item">
+                  <h3>Ghi Chú</h3>
+                  <textarea name="" id="" cols="40" rows="5"></textarea>
+                </div>
+                <div class="pay-lef-item">
+                  <h3>Phương Thức Thanh Toán</h3>
+                  <input class="w3-radio" type="radio" name="phuo" value="tien">
+                  <label class="tex">Tiền Mặt</label>
+                  <input class="w3-radio" type="radio" name="phuo" value="the">
+                  <label class="tex">Thẻ</label>
+                  <input class="w3-radio" type="radio" name="phuo" value="momo">
+                  <label class="tex">MOMO</label>
+                </div>
+              </div>
+              <div class="pay-right">
+                <div class="pay-right-pro">
+
+                </div>
+                <div class="total">
+                  <h3>Tổng Tiền</h3>
+                  <span class="total-pric">0 Vnd</span>
+                </div>
+              </div>
+            </div>
+            <div class="pay-bot">
+              <button>Thanh Toán Ngay</button>
+            </div>
+        </div>
+         
+
+        <div class="footer">
+          <div class="footer-text">© 2024 English Learning Platform. All rights reserved.</div>
+        </div>
+
+    </div>
+
+   
+
 </body>
-
 </html>
